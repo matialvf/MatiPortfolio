@@ -14,6 +14,7 @@
     text-decoration: none;
     transition: color 0.3s;
     flex: 50%;
+    padding-right: 5px;
 }
 
 header{
@@ -41,10 +42,10 @@ body{
 }
 
 ul{
-    margin: 0;
+    margin: 0 auto;
     grid-column: 2;
     list-style-type: none;
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
 }
 
@@ -65,11 +66,12 @@ hr {
 .cv{
     width:50%;
     margin:0 auto;
+    align-content: flex-start;
 }
 
-div{
+/*div{
     display: inline;
-}
+}*/
 
 nav {
   display: grid;
@@ -96,9 +98,9 @@ img:hover {
   transform: scale(1.2);  
 }
 
-.homepage{
+/*.homepage{
     border-bottom: 1px solid #53636B;
-}
+}*/
 
 .note{
     border: solid 3px;
@@ -114,6 +116,11 @@ img:hover {
 .email{
     margin-top: 5px;
 
+}
+
+.resume{
+    margin: 0 auto;
+    width: 900px;
 }
 
 
